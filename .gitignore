@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# SwiftPM
+.build/
+mac/.build/
+Packages/
+Package.resolved
+.swiftpm/
+mac/.swiftpm/
+
+# Logs de teste e telemetria gerados durante o uso
+logs/*.log
+!logs/.gitkeep
+
+# Arquivos de usuário do Xcode
+*.xcuserdatad
+*.xcscmblueprint
+xcuserdata/
+DerivedData/

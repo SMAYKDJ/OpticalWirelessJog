@@ -1,0 +1,8 @@
+#!/bin/bash
+# Atalho para o Swift com a pasta de compilação FORA da Mesa (iCloud).
+# A Mesa sincronizada com o iCloud corrompe o banco de dados do SwiftPM
+# ("disk I/O error"). Uso:  ./scripts/sw build   |   ./scripts/sw run jogselftest
+SCRATCH="$HOME/Library/Caches/OpticalWirelessJog-build"
+cd "$(dirname "$0")/.."
+cmd="$1"; shift
+exec swift "$cmd" --scratch-path "$SCRATCH" "$@"
