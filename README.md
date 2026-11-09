@@ -1,5 +1,9 @@
 # Optical Wireless Jog 🎧
 
+<p align="center">
+  <img src="docs/assets/setup.jpeg" alt="Optical Wireless Jog Setup" width="100%" />
+</p>
+
 > **Transforme qualquer mouse óptico sem fio em um Jog Wheel / Pitch Bend profissional para o Traktor Pro 4 no macOS.**
 
 O **Optical Wireless Jog** é uma ponte de software de ultra-baixa latência construída em Swift puro que lê deslocamentos brutos de um sensor óptico (via IOHIDManager em modo exclusivo), processa a inércia e rotação em tempo real e emite comandos MIDI para o Traktor Pro 4 através de uma porta virtual nativa (`CoreMIDI`).

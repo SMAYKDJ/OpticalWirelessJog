@@ -57,3 +57,4 @@ echo "    Ajustes do Sistema ▸ Privacidade e Segurança ▸ Monitoramento de E
 echo " 2. No Traktor Pro 4, verifique a porta MIDI virtual 'Optical Jog'."
 echo " 3. Use o botão direito do mouse para alternar entre Deck A e Deck B!"
 echo "========================================================"
+
